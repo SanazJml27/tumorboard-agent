@@ -1,0 +1,93 @@
+[
+  {
+    "case_id": "case-001",
+    "cancer_type": "breast",
+    "stage": "IV (metastatic)",
+    "imaging_findings": "Follow-up CT shows stable disease with no new lesions compared to prior imaging.",
+    "pathology_findings": "Invasive ductal carcinoma, HER2 positive (3+ by IHC), ER negative, PR negative.",
+    "genomic_findings": ["HER2 amplification confirmed by FISH"],
+    "patient_factors": {
+      "performance_status": "ECOG 1",
+      "comorbidities": [],
+      "patient_preferences": "Wants to pursue the most effective treatment available."
+    }
+  },
+  {
+    "case_id": "case-002",
+    "cancer_type": "lung",
+    "stage": "IV (metastatic)",
+    "imaging_findings": "Follow-up CT shows stable disease with no new lesions.",
+    "pathology_findings": "Adenocarcinoma, Grade 3, clear margins on prior resection.",
+    "genomic_findings": ["No pathogenic mutations detected on somatic panel testing"],
+    "patient_factors": {
+      "performance_status": "ECOG 3, largely bed-bound",
+      "comorbidities": ["congestive heart failure"],
+      "patient_preferences": "Prefers comfort-focused care and wants to avoid hospitalization."
+    }
+  },
+  {
+    "case_id": "case-003",
+    "cancer_type": "colorectal",
+    "stage": "III",
+    "imaging_findings": "Imaging shows stable disease, no new lesions.",
+    "pathology_findings": "Adenocarcinoma, Grade 2, clear surgical margins.",
+    "genomic_findings": ["No actionable mutations identified on panel testing"],
+    "patient_factors": {
+      "performance_status": "ECOG 1",
+      "comorbidities": [],
+      "patient_preferences": "Prioritizes quality of life and wants to avoid hospitalization if possible."
+    }
+  },
+  {
+    "case_id": "case-004",
+    "cancer_type": "lung",
+    "stage": "IV (metastatic)",
+    "imaging_findings": "Follow-up imaging shows stable disease with no new lesions.",
+    "pathology_findings": "Adenocarcinoma. Reflex NGS panel reveals EGFR exon 19 deletion; co-occurring KRAS G12C mutation of uncertain subclonal significance also detected.",
+    "genomic_findings": ["EGFR exon 19 deletion", "KRAS G12C mutation (co-occurring, subclonal)"],
+    "patient_factors": {
+      "performance_status": "ECOG 1",
+      "comorbidities": [],
+      "patient_preferences": "Interested in all reasonable options, including clinical trials."
+    }
+  },
+  {
+    "case_id": "case-005",
+    "cancer_type": "colorectal",
+    "stage": "IV (metastatic)",
+    "imaging_findings": "Imaging shows stable hepatic lesions, no new sites of disease.",
+    "pathology_findings": "Adenocarcinoma, MSI-H (mismatch repair deficient) by immunohistochemistry.",
+    "genomic_findings": ["Tumor mutational burden: TMB-low"],
+    "patient_factors": {
+      "performance_status": "ECOG 1",
+      "comorbidities": [],
+      "patient_preferences": "Open to further active treatment."
+    }
+  },
+  {
+    "case_id": "case-006",
+    "cancer_type": "prostate",
+    "stage": "IV (metastatic, castration-resistant)",
+    "imaging_findings": "Bone scan findings equivocal; cannot be excluded as new sites of disease versus degenerative change.",
+    "pathology_findings": "Original biopsy report on file does not include a documented Gleason score.",
+    "genomic_findings": [],
+    "patient_factors": {
+      "performance_status": "ECOG 1",
+      "comorbidities": ["hypertension"],
+      "patient_preferences": "Wants clarity on options before deciding."
+    }
+  },
+  {
+    "case_id": "case-007",
+    "cancer_type": "breast",
+    "stage": "II",
+    "imaging_findings": "Follow-up imaging shows stable disease with no new lesions.",
+    "pathology_findings": "Invasive ductal carcinoma, Grade 2, clear surgical margins.",
+    "genomic_findings": ["No pathogenic mutations detected on somatic panel testing"],
+    "patient_factors": {
+      "performance_status": "ECOG 0",
+      "comorbidities": [],
+      "patient_preferences": "Wants to continue current treatment as long as it remains effective and well tolerated."
+    }
+  }
+]

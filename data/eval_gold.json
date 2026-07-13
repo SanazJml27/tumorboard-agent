@@ -1,0 +1,9 @@
+[
+  {"case_id": "case-001", "expected_recommendation": "targeted_therapy", "expected_tier": "senior_review", "expected_catfish": false, "note": "Clear HER2+ actionable finding; Radiologist/Navigator structurally can't join that category, so senior review is expected even with no catfish intervention."},
+  {"case_id": "case-002", "expected_recommendation": "palliative_supportive_care", "expected_tier": "senior_review", "expected_catfish": true, "note": "Catfish should catch the performance-status conflict and the panel should shift toward supportive care."},
+  {"case_id": "case-003", "expected_recommendation": "continue_current_therapy", "expected_tier": "senior_review", "expected_catfish": true, "note": "Catfish should catch the patient-preference conflict; majority holds but with reduced confidence."},
+  {"case_id": "case-004", "expected_recommendation": "targeted_therapy", "expected_tier": "senior_review", "expected_catfish": true, "note": "Catfish should flag the uncited trial-relevant KRAS G12C finding even though EGFR remains the majority recommendation."},
+  {"case_id": "case-005", "expected_recommendation": "immunotherapy", "expected_tier": "urgent_escalation", "expected_catfish": false, "note": "MSI-H (pathology) and TMB-low (genomics) are reported in separate siloed reports; natural panel disagreement already forces escalation before catfish needs to act."},
+  {"case_id": "case-006", "expected_recommendation": "insufficient_evidence", "expected_tier": "urgent_escalation", "expected_catfish": false, "note": "Missing Gleason score and equivocal imaging leave too little to act on."},
+  {"case_id": "case-007", "expected_recommendation": "continue_current_therapy", "expected_tier": "auto_finalize", "expected_catfish": false, "note": "Clean, unanimous, no risk flags -- the one case expected to auto-finalize."}
+]
