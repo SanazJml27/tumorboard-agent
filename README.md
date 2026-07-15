@@ -18,7 +18,7 @@ a dedicated **catfish agent** challenges premature consensus, and a **tiered
 oversight agent** decides whether the panel's conclusion can auto-finalize or
 must be escalated to human review. It ships with a reproducible **evaluation
 harness** scoring recommendation accuracy, escalation-tier accuracy, and
-catfish-trigger calibration — and runs fully offline with no API keys.
+catfish-trigger calibration, and runs fully offline with no API keys.
 
 > ⚠️ **Educational / research prototype only. Not a medical device.** It uses
 > only synthetic cases and a small, original, non-clinical knowledge base, and
