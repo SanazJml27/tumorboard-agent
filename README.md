@@ -192,11 +192,6 @@ doc, copy the text into a `.txt` file; if you have a FHIR/EHR export, map the
 fields you care about into the CSV columns (the demo does not ingest raw FHIR
 bundles directly).
 
-### Live demo
-
-`app.py` wraps the same `TumorBoardOrchestrator`. To publish a shareable link:
-push to GitHub, then deploy on [share.streamlit.io](https://share.streamlit.io)
-pointing at `app.py`. No secrets required for the default offline mode.
 
 ### Optional real-LLM prose
 
